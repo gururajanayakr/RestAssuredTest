@@ -1,0 +1,432 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Mutturu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Beach View Resort, Mutturu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Konkani-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "dbdd58740fa0bd95fcc0a33d59b6f3fe",
+    "scope": "APP",
+    "reference": "e138ce7b8d83a7ec484b122df4f369b5e138ce7b8d83a7ec484b122df4f369b5",
+    "id": "e138ce7b8d83a7ec484b122df4f369b5"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=dbdd58740fa0bd95fcc0a33d59b6f3fe
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=dbdd58740fa0bd95fcc0a33d59b6f3fe
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Mutturu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Beach View Resort, Mutturu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Konkani-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 269
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "0"
+    },
+    "accuracy": "50",
+    "name": "Mutturu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Beach View Resort, Mutturu, Udupi",
+    "types": "types,shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Konkani-IN"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=dbdd58740fa0bd95fcc0a33d59b6f3fe&place_id=dbdd58740fa0bd95fcc0a33d59b6f3fe
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[dbdd58740fa0bd95fcc0a33d59b6f3fe, dbdd58740fa0bd95fcc0a33d59b6f3fe]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Mutturu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Beach View Resort, Mutturu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Konkani-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Kajaraguttu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Banti Shop, Kajaraguttu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tulu-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "af684ac2a08fc62205d732014ae66e49",
+    "scope": "APP",
+    "reference": "fb35f5a0eb0b6794d694a8fa3fb3e05cfb35f5a0eb0b6794d694a8fa3fb3e05c",
+    "id": "fb35f5a0eb0b6794d694a8fa3fb3e05c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=af684ac2a08fc62205d732014ae66e49
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=af684ac2a08fc62205d732014ae66e49
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Kajaraguttu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Banti Shop, Kajaraguttu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tulu-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 267
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "0"
+    },
+    "accuracy": "50",
+    "name": "Kajaraguttu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Banti Shop, Kajaraguttu, Udupi",
+    "types": "types,shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tulu-IN"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=af684ac2a08fc62205d732014ae66e49&place_id=af684ac2a08fc62205d732014ae66e49
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[af684ac2a08fc62205d732014ae66e49, af684ac2a08fc62205d732014ae66e49]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Kajaraguttu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Banti Shop, Kajaraguttu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tulu-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ontibettu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Ganga Store, Ontibettu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Kannada-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "3ef403d46152db61dd70fe110425c82c",
+    "scope": "APP",
+    "reference": "6863be309e5eac6252690b6856e88eaa6863be309e5eac6252690b6856e88eaa",
+    "id": "6863be309e5eac6252690b6856e88eaa"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3ef403d46152db61dd70fe110425c82c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=3ef403d46152db61dd70fe110425c82c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ontibettu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Ganga Store, Ontibettu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Kannada-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 267
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "0"
+    },
+    "accuracy": "50",
+    "name": "Ontibettu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Ganga Store, Ontibettu, Udupi",
+    "types": "types,shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Kannada-IN"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=3ef403d46152db61dd70fe110425c82c&place_id=3ef403d46152db61dd70fe110425c82c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[3ef403d46152db61dd70fe110425c82c, 3ef403d46152db61dd70fe110425c82c]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ontibettu",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Ganga Store, Ontibettu, Udupi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Kannada-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 0.0
+    },
+    "types": [
+        "types",
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 Nov 2024 11:42:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8

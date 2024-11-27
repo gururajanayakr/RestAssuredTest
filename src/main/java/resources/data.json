@@ -1,0 +1,17 @@
+{
+  "AddPlaceAPIOne" : {
+    "name" : "Mutturu",
+    "address" : "Beach View Resort, Mutturu, Udupi",
+    "language" : "Konkani-IN"
+  },
+  "AddPlaceAPITwo" : {
+    "name" : "Kajaraguttu",
+    "address" : "Banti Shop, Kajaraguttu, Udupi",
+    "language" : "Tulu-IN"
+  },
+  "AddPlaceAPIThree" : {
+    "name" : "Ontibettu",
+    "address" : "Ganga Store, Ontibettu, Udupi",
+    "language" : "Kannada-IN"
+  }
+}
